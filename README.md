@@ -1,9 +1,11 @@
-# Deep learning model for grading speech
+# Deep learning model for recognizing accents in speech
 
-This is my attempt at building a model for grading non-native spanish speakers
-based solely on their pronunciation.
+This is my attempt at building a model for finding the accents of french
+speakers.
+
+This model is adapted from whisper, the openai model for speech recognition.
 
 ## Use-case
 
 The user reads some text. This is recorded as an audio file. This audio file is
-then fed to the model which ouputs a grade: A1, A2, B1, B2, C1, C2, native.
+then fed to the model which ouputs an accent: French, Belgian, Swiss.
